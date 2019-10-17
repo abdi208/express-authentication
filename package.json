@@ -22,12 +22,20 @@
     "supertest": "^4.0.2"
   },
   "dependencies": {
+    "bcrypt": "^3.0.6",
+    "connect-flash": "^0.1.1",
+    "connect-session-sequelize": "^6.0.0",
     "dotenv": "^8.0.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
+    "express-rate-limit": "^5.0.0",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.1",
     "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "pg": "^7.11.0",
-    "sequelize": "^5.8.12"
+    "sequelize": "^5.19.7"
   }
 }
